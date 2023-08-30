@@ -6,6 +6,7 @@ import { path } from '@vuepress/utils'
 export default defineUserConfig({
   port:8088,
   title: "基础技术",
+  base: '/vuepress2.0-Basic',
   description: "Just playing around",
   lang: 'zh-CN',
   plugins: [
